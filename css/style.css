@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteiner {
+    width: 75%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.profile-image {
+width: 350px;
+height: 350px;
+border: 1px solid black;
+margin: 0 auto;
+border-radius: 50%;
+background-image: url("../images/pilt_1.jpeg");
+background-position: center;
+background-size: cover;
+margin: 2rem auto;
+}
+
+
+.profile-text h3 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+}
+
+ul {
+    list-style: none;
+}
+
+.profile-text ul li {
+    margin-bottom: 0.8rem;
+}
+
+.footer ul li {
+    display: inline-block;
+    margin: 2rem;
+}
+
+
+
+@media (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+    .conteiner {
+        color: blanchedalmond;
+    }
+    .profile-image {
+        background-image: url("../images/pilt_2.jpeg");
+        }
+
+}
+@media (max-width: 480px) {
+    body {
+        background-color: yellow;
+    }
+    .conteiner {
+        color: black;
+        width: 100%;
+
+    }
+    .profile-image {
+        background-image: url("../images/pilt_3.jpeg");
+        }
+    .profile-image {
+            width: 200px;
+            height: 200px;
+            }
+            .footer ul li {
+                display: block;
+                margin: 1rem;
+            }
+
+}
+    
